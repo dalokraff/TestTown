@@ -223,7 +223,7 @@ end)
 mod:hook(_G, 'flow_callback_boss_gizmo_spawned', function(func, params)
     local lvl_key = Managers.state.game_mode:level_key()
     if lvl_key == mod.level_name then
-        local has_trave_dist = Unit.get_data(unit, 'travel_dist')
+        local has_trave_dist = Unit.get_data(params.unit, 'travel_dist')
         if not has_trave_dist then
             return
         end
