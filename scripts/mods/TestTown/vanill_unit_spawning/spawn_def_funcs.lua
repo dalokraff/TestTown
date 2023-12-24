@@ -438,8 +438,6 @@ SpawnDefinitionsFuncs.spawn_testing_mesh = function (position, world)
     local unit = UtilFuncs.spawn_local_respawner(world, respawn_unit_hash_str, Vector3(16.6536, -11.3016, 59.6987), nil, 50, nil, nil, 'respawn_floor_loop', 1.5)
     local unit = UtilFuncs.spawn_local_respawner(world, respawn_unit_hash_str, Vector3(19.2307, -11.2793, 59.7079), nil, 50, nil, nil, 'respawn_floor_loop', 1.5)
 
-    mod:echo(unit)
-
 end
 
 --spawns meshes after ConflictDirector initialization

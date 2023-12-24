@@ -221,7 +221,6 @@ mod:hook(NetworkedFlowStateManager, 'init', function(func, self, world, ...)
 end)
 
 mod:hook(_G, 'flow_callback_boss_gizmo_spawned', function(func, params)
-    mod:echo('flow_callback_boss_gizmo_spawned')
     local lvl_key = Managers.state.game_mode:level_key()
     if lvl_key == mod.level_name then
         local has_trave_dist = Unit.get_data(unit, 'travel_dist')
@@ -252,7 +251,7 @@ mod:hook(_G, 'flow_callback_respawn_unit_spawned', function(func, params)
 
     local lvl_key = Managers.state.game_mode:level_key()
     if lvl_key == mod.level_name then
-        local distance_through_level = Unit.get_data(unit, 'distance_through_level')
+        local distance_through_level = Unit.get_data(params.unit, 'distance_through_level')
         if not distance_through_level then
             return
         end
