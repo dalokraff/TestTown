@@ -52,6 +52,16 @@ mod:hook(PackageManager, "unload", function(func, self, package_name, reference_
 	end
 end)
 
+--replaces item skin name and descritpion
+mod:hook(LocalizationManager, "_base_lookup", function (func, self, text_id)
+
+    if not string.find(mod:localize(text_id), "<") then
+        return mod:localize(text_id)
+    end
+
+	return func(self, text_id)
+end)
+
 
 --============================================================================
 --============================================================================
