@@ -1,0 +1,19 @@
+mod = [
+	"TestTown"
+]
+
+package = [
+	"resource_packages/TestTown/TestTown"
+]
+
+lua = [
+	"scripts/mods/TestTown/*"
+]
+
+* = [
+	// "scripts/mods/CustomLevel/*"
+	"level/*"
+	"sdk_imports/*"
+	"content/*"
+	"levels/*"
+]

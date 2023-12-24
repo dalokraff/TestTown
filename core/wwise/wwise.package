@@ -1,0 +1,5 @@
+lua = [
+    "core/wwise/lua/wwise_flow_callbacks"
+    "core/wwise/lua/wwise_visualization"
+    "core/wwise/lua/wwise_bank_reference"
+]

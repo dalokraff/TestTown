@@ -1,0 +1,17 @@
+actors = [
+	{
+		enabled = true
+		mass = 1
+		name = "g_chroma_cube"
+		node = "g_chroma_cube"
+		shapes = [
+			{
+				material = "default"
+				shape = "g_chroma_cube"
+				template = "default"
+				type = "convex_computed"
+			}
+		]
+		template = "static"
+	},
+]

@@ -1,0 +1,184 @@
+debug = {
+	shader = "gui:DIFFUSE_MAP"
+	textures = {
+		diffuse_map = "core/performance_hud/debug"
+	}
+}
+
+slug_text = {
+    shader = "slug_text"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_weight = {
+    shader = "slug_text:SLUG_WEIGHT"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+
+slug_text_super = {
+    shader = "slug_text:SLUG_SUPER"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+
+slug_text_weight_super = {
+    shader = "slug_text:SLUG_SUPER:SLUG_WEIGHT"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+
+slug_text_multi_color = {
+    shader = "slug_text:SLUG_MULTICOLOR"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+
+slug_text_weight_multi_color = {
+    shader = "slug_text:SLUG_WEIGHT:SLUG_MULTICOLOR"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+
+slug_text_super_multi_color = {
+    shader = "slug_text:SLUG_SUPER:SLUG_MULTICOLOR"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+
+slug_text_weight_super_multi_color = {
+    shader = "slug_text:SLUG_WEIGHT:SLUG_SUPER:SLUG_MULTICOLOR"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+
+slug_text_write_mask = {
+    shader = "slug_text:WRITE_MASK"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_masked = {
+    shader = "slug_text:MASKED"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_multi_color_masked = {
+    shader = "slug_text:SLUG_MULTICOLOR:MASKED"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_super_masked = {
+    shader = "slug_text:SLUG_SUPER:MASKED"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_super_multi_color_masked = {
+    shader = "slug_text:SLUG_SUPER:SLUG_MULTICOLOR:MASKED"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_weight_masked = {
+    shader = "slug_text:SLUG_WEIGHT:MASKED"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_weight_multi_color_masked = {
+    shader = "slug_text:SLUG_MULTICOLOR:SLUG_WEIGHT:MASKED"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_weight_super_masked = {
+    shader = "slug_text:SLUG_WEIGHT:SLUG_SUPER:MASKED"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
+slug_text_weight_super_multi_color_masked = {
+    shader = "slug_text:SLUG_WEIGHT:SLUG_SUPER:SLUG_MULTICOLOR:MASKED"
+    material_contexts = {
+        surface_material = ""
+    }
+    textures = {
+       curve_map = ""
+        band_map = ""
+   }
+}
