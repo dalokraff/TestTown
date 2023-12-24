@@ -14,4 +14,7 @@ return {
 	custom_level_test = {
 		en = 'A town for testing the implementation of custom levels in Vermintide 2'
 	},
+	area_custom_levels = {
+		en = 'Custom Levels'
+	}
 }

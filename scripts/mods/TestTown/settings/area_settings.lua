@@ -20,11 +20,12 @@ GameActs.act_testing = {
 }
 
 -- UnlockableLevels[#UnlockableLevels + 1] = 'VersuchenStadt'
+MapPresentationActs[#MapPresentationActs + 1] = 'act_testing'
 
 
 ActSettings.act_testing = {
-	display_name = "area_selection_onions_name",
-	console_offset = 0,
+	display_name = "area_custom_levels",
+	console_offset = 100,
 	draw_path = false,
 	sorting = 2,
 	banner_texture = "menu_frame_bg_01"
