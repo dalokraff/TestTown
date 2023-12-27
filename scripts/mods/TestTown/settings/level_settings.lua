@@ -5,7 +5,7 @@ local path_to_level = mod.path_to_level
 -- local path_to_level = "content/levels/test_level"
 
 LevelSettings[level_name] = {
-	conflict_settings = "skaven",
+	conflict_settings = "deus_skaven_chaos",
 	no_terror_events = true,
 	package_name = level_package_name,
     packages = {

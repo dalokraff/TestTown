@@ -22,7 +22,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 2,
 		crossroads = "",
@@ -33,7 +33,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 2,
 		crossroads = "",
@@ -44,7 +44,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 2,
 		crossroads = "",
@@ -55,7 +55,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 2,
 		crossroads = "",
@@ -66,7 +66,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 2,
 		crossroads = "",
@@ -77,7 +77,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 3,
 		crossroads = "",
@@ -88,7 +88,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 3,
 		crossroads = "",
@@ -99,7 +99,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 3,
 		crossroads = "",
@@ -110,7 +110,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 4,
 		crossroads = "",
@@ -121,7 +121,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 4,
 		crossroads = "",
@@ -132,7 +132,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 4,
 		crossroads = "",
@@ -143,7 +143,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 4,
 		crossroads = "",
@@ -154,7 +154,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 5,
 		crossroads = "",
@@ -165,7 +165,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 5,
 		crossroads = "",
@@ -176,7 +176,7 @@ local path_markers = {
 		}
 	},
 	{
-		-- roaming_set = "skaven",
+		roaming_set = "skaven",
 		kind = "good",
 		main_path_index = 5,
 		crossroads = "",
@@ -283,60 +283,952 @@ local main_paths = {
 }
 
 local zones = {
+
 	{
-		roaming_set = "skaven",
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 0,
+		travel_dist = 0,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  1,2,3,4,5,6
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
 		unique_zone_id = 1,
-		travel_dist = 16.6346995832,
+		travel_dist = 1,
 		sub_zone_length = 1,
 		sub = {
-			{
-				1,2,3
-			},
-			{
-				4,5,6
-			}
+			   {
+					  6,7,8,9,10,11
+			   },
 		},
 		sub_areas = {
-			[1.0] = 1,
-			[2.0] = 1
+			   [1.0] = 1,
+			   [2.0] = 1
 		}
-	},
-	{
-		roaming_set = "skaven",
+ },
+ {
+		roaming_set = "skaven/chaos",
 		unique_zone_id = 2,
-		travel_dist = 15.115724563598633,
+		travel_dist = 2,
 		sub_zone_length = 1,
 		sub = {
-			{
-				7,8,9
-			},
-			{
-				10,11,12
-			}
+			   {
+					  11,12,13,14,15,16
+			   },
 		},
 		sub_areas = {
-			[1.0] = 1,
-			[2.0] = 1
+			   [1.0] = 1,
+			   [2.0] = 1
 		}
-	},
-	{
-		roaming_set = "skaven",
+ },
+ {
+		roaming_set = "skaven/chaos",
 		unique_zone_id = 3,
-		travel_dist = 16.189338684082031,
+		travel_dist = 3,
 		sub_zone_length = 1,
 		sub = {
-			{
-				13,14,15
-			},
-			{
-				16,17,18
-			}
+			   {
+					  16,17,18,19,20,21
+			   },
 		},
 		sub_areas = {
-			[1.0] = 1,
-			[2.0] = 1
+			   [1.0] = 1,
+			   [2.0] = 1
 		}
-	},
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 4,
+		travel_dist = 4,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  21,22,23,24,25,26
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 5,
+		travel_dist = 5,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  26,27,28,29,30,31
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 6,
+		travel_dist = 6,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  31,32,33,34,35,36
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 7,
+		travel_dist = 7,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  36,37,38,39,40,41
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 8,
+		travel_dist = 8,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  41,42,43,44,45,46
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 9,
+		travel_dist = 9,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  46,47,48,49,50,51
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 10,
+		travel_dist = 10,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  51,52,53,54,55,56
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 11,
+		travel_dist = 11,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  56,57,58,59,60,61
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 12,
+		travel_dist = 12,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  61,62,63,64,65,66
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 13,
+		travel_dist = 13,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  66,67,68,69,70,71
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 14,
+		travel_dist = 14,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  71,72,73,74,75,76
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 15,
+		travel_dist = 15,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  76,77,78,79,80,81
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 16,
+		travel_dist = 16,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  81,82,83,84,85,86
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 17,
+		travel_dist = 17,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  86,87,88,89,90,91
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 18,
+		travel_dist = 18,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  91,92,93,94,95,96
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 19,
+		travel_dist = 19,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  96,97,98,99,100,101
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 20,
+		travel_dist = 20,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  101,102,103,104,105,106
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 21,
+		travel_dist = 21,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  106,107,108,109,110,111
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 22,
+		travel_dist = 22,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  111,112,113,114,115,116
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 23,
+		travel_dist = 23,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  116,117,118,119,120,121
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 24,
+		travel_dist = 24,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  121,122,123,124,125,126
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 25,
+		travel_dist = 25,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  126,127,128,129,130,131
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 26,
+		travel_dist = 26,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  131,132,133,134,135,136
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 27,
+		travel_dist = 27,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  136,137,138,139,140,141
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 28,
+		travel_dist = 28,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  141,142,143,144,145,146
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 29,
+		travel_dist = 29,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  146,147,148,149,150,151
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 30,
+		travel_dist = 30,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  151,152,153,154,155,156
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 31,
+		travel_dist = 31,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  156,157,158,159,160,161
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 32,
+		travel_dist = 32,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  161,162,163,164,165,166
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 33,
+		travel_dist = 33,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  166,167,168,169,170,171
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 34,
+		travel_dist = 34,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  171,172,173,174,175,176
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 35,
+		travel_dist = 35,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  176,177,178,179,180,181
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 36,
+		travel_dist = 36,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  181,182,183,184,185,186
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 37,
+		travel_dist = 37,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  186,187,188,189,190,191
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 38,
+		travel_dist = 38,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  191,192,193,194,195,196
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 39,
+		travel_dist = 39,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  196,197,198,199,200,201
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 40,
+		travel_dist = 40,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  201,202,203,204,205,206
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 41,
+		travel_dist = 41,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  206,207,208,209,210,211
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 42,
+		travel_dist = 42,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  211,212,213,214,215,216
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 43,
+		travel_dist = 43,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  216,217,218,219,220,221
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 44,
+		travel_dist = 44,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  221,222,223,224,225,226
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 45,
+		travel_dist = 45,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  226,227,228,229,230,231
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 46,
+		travel_dist = 46,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  231,232,233,234,235,236
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 47,
+		travel_dist = 47,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  236,237,238,239,240,241
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 48,
+		travel_dist = 48,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  241,242,243,244,245,246
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 49,
+		travel_dist = 49,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  246,247,248,249,250,251
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 50,
+		travel_dist = 50,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  251,252,253,254,255,256
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 51,
+		travel_dist = 51,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  256,257,258,259,260,261
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 52,
+		travel_dist = 52,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  261,262,263,264,265,266
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 53,
+		travel_dist = 53,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  266,267,268,269,270,271
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 54,
+		travel_dist = 54,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  271,272,273,274,275,276
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 55,
+		travel_dist = 55,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  276,277,278,279,280,281
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 56,
+		travel_dist = 56,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  281,282,283,284,285,286
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 57,
+		travel_dist = 57,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  286,287,288,289,290,291
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 58,
+		travel_dist = 58,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  291,292,293,294,295,296
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 59,
+		travel_dist = 59,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  296,297,298,299,300,301
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 60,
+		travel_dist = 60,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  301,302,303,304,305,306
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 61,
+		travel_dist = 61,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  306,307,308,309,310,311
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
+ {
+		roaming_set = "skaven/chaos",
+		unique_zone_id = 62,
+		travel_dist = 62,
+		sub_zone_length = 1,
+		sub = {
+			   {
+					  311,312,313,314,315,316
+			   },
+		},
+		sub_areas = {
+			   [1.0] = 1,
+			   [2.0] = 1
+		}
+ },
 }
 
 local position_lookup = {
@@ -728,7 +1620,7 @@ return {
 	path_markers = path_markers,
 	zones = zones,
 	cover_points = {},
-	num_main_zones = 3,
+	num_main_zones = 63,
 	position_lookup = position_lookup,
 	main_paths = main_paths,
 	crossroads = {},
